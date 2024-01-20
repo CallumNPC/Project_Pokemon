@@ -44,3 +44,5 @@ if len(sys.argv) == 2:
 # there are edge cases that may cause issue at later points. 
 # id29 nidoran-f and id32 nidoran-m // these are female/male pokemon with same name
 # id122 mr-mime // only pokemon to have 2 word name (split by -)
+
+# put API request into a function so it is not called at each use. 
